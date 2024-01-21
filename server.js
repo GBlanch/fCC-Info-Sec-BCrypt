@@ -27,7 +27,7 @@ console.log("Hash :" + hash);
 
 
 var result = bcrypt.compareSync(myPlaintextPassword, hash);
-console.log("Res :", res);
+console.log("Res :" + res);
 
 //END_SYNC
 
